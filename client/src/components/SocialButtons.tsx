@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { SiFacebook, SiInstagram, SiLinkedin, SiWhatsapp } from "react-icons/si";
 
 export default function SocialButtons() {
   return (
@@ -15,9 +15,9 @@ export default function SocialButtons() {
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-background/80 backdrop-blur-sm"
+          className="bg-background/80 backdrop-blur-sm hover:bg-[#1877f2]"
         >
-          <Facebook className="h-5 w-5" />
+          <SiFacebook className="h-5 w-5 text-[#1877f2] group-hover:text-white" />
         </a>
       </Button>
       <Button variant="outline" size="icon" asChild>
@@ -25,9 +25,9 @@ export default function SocialButtons() {
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-background/80 backdrop-blur-sm"
+          className="bg-background/80 backdrop-blur-sm hover:bg-gradient-to-br from-[#fa7e1e] via-[#d62976] to-[#962fbf]"
         >
-          <Instagram className="h-5 w-5" />
+          <SiInstagram className="h-5 w-5 text-[#d62976] group-hover:text-white" />
         </a>
       </Button>
       <Button variant="outline" size="icon" asChild>
@@ -35,9 +35,19 @@ export default function SocialButtons() {
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-background/80 backdrop-blur-sm"
+          className="bg-background/80 backdrop-blur-sm hover:bg-[#0a66c2]"
         >
-          <Linkedin className="h-5 w-5" />
+          <SiLinkedin className="h-5 w-5 text-[#0a66c2] group-hover:text-white" />
+        </a>
+      </Button>
+      <Button variant="outline" size="icon" asChild>
+        <a
+          href="https://wa.me/seunumero"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-background/80 backdrop-blur-sm hover:bg-[#25d366]"
+        >
+          <SiWhatsapp className="h-5 w-5 text-[#25d366] group-hover:text-white" />
         </a>
       </Button>
     </motion.div>

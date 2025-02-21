@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Benefits from "@/components/Benefits";
-import Contact from "@/components/Contact";
+import AssistantsDemo from "@/components/AssistantsDemo";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Benefits />
-      <Contact />
+      <AssistantsDemo />
     </main>
   );
 }
