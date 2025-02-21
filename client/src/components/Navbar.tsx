@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2">
-            <Avatar className="h-10 w-10">
+            <Avatar className="h-16 w-16">
               <AvatarImage src="/logo1_azul.jpg" alt="Marília Tech Logo" />
             </Avatar>
             <span className="text-2xl font-bold text-primary">Marília Tech</span>
