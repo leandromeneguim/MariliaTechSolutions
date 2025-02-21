@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import Layout from "@/components/Layout";
+import { ThemeProvider } from "@/hooks/use-theme";
 
 function Router() {
   return (
@@ -17,12 +18,14 @@ function Router() {
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <Layout>
-        <Router />
-      </Layout>
-      <Toaster />
-    </QueryClientProvider>
+    <ThemeProvider defaultTheme="dark" storageKey="marilia-tech-theme">
+      <QueryClientProvider client={queryClient}>
+        <Layout>
+          <Router />
+        </Layout>
+        <Toaster />
+      </QueryClientProvider>
+    </ThemeProvider>
   );
 }
 

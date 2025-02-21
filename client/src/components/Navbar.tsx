@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navLinks = [
   { href: "#services", label: "Serviços" },
@@ -31,6 +32,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <ThemeToggle />
         </div>
 
         {/* Mobile Navigation */}
@@ -52,6 +54,9 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
+              <div className="pt-4">
+                <ThemeToggle />
+              </div>
             </div>
           </SheetContent>
         </Sheet>
