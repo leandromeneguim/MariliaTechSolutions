@@ -13,7 +13,7 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
-            Soluções Inteligentes em IA
+            Soluções Inteligentes em <span className="text-red-600">IA</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Transforme sua empresa com soluções tecnológicas baseadas em
