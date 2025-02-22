@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-16 px-4">
+    <section className="pt-16 pb-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
