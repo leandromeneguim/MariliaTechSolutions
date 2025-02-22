@@ -12,7 +12,7 @@ export default function Navbar() {
         </div>
 
         <h1 className="text-4xl font-bold absolute left-1/2 -translate-x-1/2">
-          MAR<span className="text-red-600">Í</span>L<span className="text-red-600">IA</span> TECH
+          MARÍL<span className="text-red-600">IA</span> TECH
         </h1>
 
         <div className="flex items-center gap-4">
