@@ -13,19 +13,27 @@ export default function AssistantsDemo() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Veja os Assistentes em Ação</h2>
+          <h2 className="text-3xl font-bold mb-4">Diversos tipos de assistentes e automações</h2>
           <p className="text-muted-foreground">
             Experimente o poder da IA em tempo real
           </p>
         </motion.div>
 
-        {/* Área de Vídeos */}
+        {/* Área de Imagens */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <Card className="aspect-video bg-muted flex items-center justify-center">
-            <p className="text-muted-foreground">Vídeo Demonstrativo 1</p>
+          <Card className="aspect-video bg-muted overflow-hidden">
+            <img 
+              src="/attached_assets/image_1740242489565.png" 
+              alt="Chatbot Interface"
+              className="w-full h-full object-cover"
+            />
           </Card>
-          <Card className="aspect-video bg-muted flex items-center justify-center">
-            <p className="text-muted-foreground">Vídeo Demonstrativo 2</p>
+          <Card className="aspect-video bg-muted overflow-hidden">
+            <img 
+              src="/attached_assets/image_1740243046512.png" 
+              alt="WhatsApp Chatbot"
+              className="w-full h-full object-cover"
+            />
           </Card>
         </div>
 
