@@ -1,8 +1,8 @@
 
-import { useTheme } from "@/hooks/use-theme"
+import { useTheme } from "@/hooks/use-theme";
 
 export function Logo() {
-  const { theme } = useTheme()
+  const { theme } = useTheme();
   
   return (
     <div className="flex items-center space-x-2">
@@ -20,5 +20,5 @@ export function Logo() {
         />
       )}
     </div>
-  )
+  );
 }
