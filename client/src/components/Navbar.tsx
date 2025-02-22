@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import { Menu } from "lucide-react";
+import { Menu, LogIn } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { ThemeToggle } from "./ThemeToggle";
@@ -16,18 +16,18 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between relative">
+      <div className="container mx-auto px-4 h-28 flex items-center justify-between relative">
         <Link href="/">
           <a className="flex items-center gap-2">
             <img 
               src="/images/LOGOMARILIA-BRANCA.png" 
               alt="Marília Tech Logo" 
-              className="h-28 w-auto hidden dark:block absolute -top-4"
+              className="h-28 w-auto hidden dark:block absolute -top-0"
             />
             <img 
               src="/images/LOGOMARILIA-PRETA.png" 
               alt="Marília Tech Logo" 
-              className="h-28 w-auto block dark:hidden absolute -top-4"
+              className="h-28 w-auto block dark:hidden absolute -top-0"
             />
           </a>
         </Link>
@@ -49,6 +49,14 @@ export default function Navbar() {
             </a>
           ))}
           <ThemeToggle />
+          <Button variant="outline" size="sm" asChild className="ml-4">
+            <Link href="/auth">
+              <a className="flex items-center gap-2">
+                <LogIn className="h-4 w-4" />
+                Login
+              </a>
+            </Link>
+          </Button>
         </div>
 
         {/* Mobile Navigation */}
@@ -73,6 +81,12 @@ export default function Navbar() {
               <div className="pt-4">
                 <ThemeToggle />
               </div>
+              <Link href="/auth">
+                <a className="flex items-center gap-2 text-lg font-medium">
+                  <LogIn className="h-4 w-4" />
+                  Login
+                </a>
+              </Link>
             </div>
           </SheetContent>
         </Sheet>
