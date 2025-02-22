@@ -1,4 +1,3 @@
-
 import { Link } from "wouter"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
@@ -13,7 +12,7 @@ export default function Navbar() {
         </div>
 
         <h1 className="text-3xl font-bold absolute left-1/2 -translate-x-1/2">
-          MAR<span className="text-red-600">ÍL</span>IA TECH
+          MAR<span className="text-red-600">ÍLIA</span> TECH
         </h1>
 
         <div className="flex items-center gap-4">
