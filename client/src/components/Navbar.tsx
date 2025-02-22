@@ -4,6 +4,7 @@ import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { ThemeToggle } from "./ThemeToggle";
+import { Avatar, AvatarImage } from "./ui/avatar";
 
 const navLinks = [
   { href: "#services", label: "Serviços" },
@@ -18,7 +19,18 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
-          <a className="text-2xl font-bold text-primary">Marília Tech</a>
+          <a className="flex items-center gap-2">
+            <img 
+              src="/images/LOGOMARILIA-BRANCA.png" 
+              alt="Marília Tech Logo" 
+              className="h-12 w-auto dark:opacity-100 light:opacity-0"
+            />
+            <img 
+              src="/images/LOGOMARILIA-PRETA.png" 
+              alt="Marília Tech Logo" 
+              className="h-12 w-auto dark:opacity-0 light:opacity-100"
+            />
+          </a>
         </Link>
 
         {/* Desktop Navigation */}
