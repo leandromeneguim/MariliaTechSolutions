@@ -12,7 +12,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-10 bg-clip-text leading-relaxed">
+          <h1 className="text-4xl md:text-6xl font-bold mt-2 mb-10 bg-clip-text leading-relaxed">
             Soluções Inteligentes em <span className="text-red-600">IA</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
