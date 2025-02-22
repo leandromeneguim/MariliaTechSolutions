@@ -9,7 +9,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center justify-between">
         <div className="flex items-center">
-          <Logo />
+          <div className="flex items-center gap-4">
+        <Logo />
+        <h1 className="text-2xl font-bold">
+          MAR<span className="text-purple-500">IA</span>L TECH
+        </h1>
+      </div>
         </div>
 
         <div className="flex items-center space-x-4">

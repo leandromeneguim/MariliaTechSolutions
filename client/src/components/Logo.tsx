@@ -12,13 +12,13 @@ export function Logo() {
         <img 
           src={whiteLogo}
           alt="Logo Branca" 
-          className="h-8 w-auto"
+          className="h-16 w-auto"
         />
       ) : (
         <img 
           src={blackLogo}
           alt="Logo Preta"
-          className="h-8 w-auto"
+          className="h-16 w-auto"
         />
       )}
     </div>
