@@ -2,7 +2,7 @@
 import { Link } from "wouter"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
-import { Logo } from "@/components/Logo"
+import { Logo } from "./Logo"
 
 export default function Navbar() {
   return (
