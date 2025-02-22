@@ -1,5 +1,7 @@
 
 import { useTheme } from "@/hooks/use-theme";
+import whiteLogo from "../assets/LOGOMARILIA-BRANCA.png";
+import blackLogo from "../assets/LOGOMARILIA-PRETA.png";
 
 export function Logo() {
   const { theme } = useTheme();
@@ -8,13 +10,13 @@ export function Logo() {
     <div className="flex items-center space-x-2">
       {theme === 'dark' ? (
         <img 
-          src="LOGOMARILIA-BRANCA.png"
+          src={whiteLogo}
           alt="Logo Branca" 
           className="h-8 w-auto"
         />
       ) : (
         <img 
-          src="LOGOMARILIA-PRETA.png"
+          src={blackLogo}
           alt="Logo Preta"
           className="h-8 w-auto"
         />
