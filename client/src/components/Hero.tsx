@@ -19,9 +19,14 @@ export default function Hero() {
             Transforme sua empresa com soluções tecnológicas baseadas em
             Inteligência Artificial
           </p>
-          <Button size="lg" asChild>
-            <a href="#contact" className="gap-2">
-              Comece Agora
+          <Button size="lg" asChild className="bg-green-600 hover:bg-green-700">
+            <a 
+              href="https://wa.me/5500000000000" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="gap-2"
+            >
+              Fale com nossos Agentes
               <ArrowRight className="h-5 w-5" />
             </a>
           </Button>
