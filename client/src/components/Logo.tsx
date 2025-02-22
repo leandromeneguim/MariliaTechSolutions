@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import logoWhite from '/LOGOMARILIA-BRANCA.PNG';
-import logoBlack from '/LOGOMARILIA-PRETA.PNG';
+import logoWhite from '/attached_assets/LOGOMARILIA-BRANCA.png';
+import logoBlack from '/attached_assets/LOGOMARILIA-PRETA.png';
 
 export function Logo() {
   const [mounted, setMounted] = useState(false);
