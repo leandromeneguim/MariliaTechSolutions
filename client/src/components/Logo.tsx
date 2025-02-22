@@ -1,5 +1,7 @@
 
 import { useState, useEffect } from 'react';
+import logoWhite from '/LOGOMARILIA-BRANCA.PNG';
+import logoBlack from '/LOGOMARILIA-PRETA.PNG';
 
 export function Logo() {
   const [mounted, setMounted] = useState(false);
@@ -13,12 +15,12 @@ export function Logo() {
   return (
     <div className="flex items-center space-x-2">
       <img 
-        src="LOGOMARILIA-BRANCA.PNG" 
+        src={logoWhite}
         alt="Logo"
         className="h-8 w-auto dark:hidden"
       />
       <img 
-        src="LOGOMARILIA-PRETA.PNG" 
+        src={logoBlack}
         alt="Logo"
         className="hidden h-8 w-auto dark:block"
       />
