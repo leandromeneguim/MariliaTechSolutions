@@ -16,24 +16,29 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
-      <div className="container mx-auto px-4 h-24 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-20 flex items-center justify-between relative">
         <Link href="/">
           <a className="flex items-center gap-2">
             <img 
               src="/images/LOGOMARILIA-BRANCA.png" 
               alt="Marília Tech Logo" 
-              className="h-24 w-auto hidden dark:block"
+              className="h-28 w-auto hidden dark:block absolute -top-4"
             />
             <img 
               src="/images/LOGOMARILIA-PRETA.png" 
               alt="Marília Tech Logo" 
-              className="h-24 w-auto block dark:hidden"
+              className="h-28 w-auto block dark:hidden absolute -top-4"
             />
           </a>
         </Link>
 
+        {/* Central Text */}
+        <div className="absolute left-1/2 -translate-x-1/2 text-4xl font-bold tracking-wider">
+          MARÍL<span className="text-red-600">IA</span> TECH
+        </div>
+
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-6 ml-auto">
           {navLinks.map((link) => (
             <a
               key={link.href}
