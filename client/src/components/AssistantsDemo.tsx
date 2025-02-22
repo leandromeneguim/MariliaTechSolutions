@@ -23,14 +23,14 @@ export default function AssistantsDemo() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <Card className="aspect-video bg-muted overflow-hidden">
             <img 
-              src="/attached_assets/image_1740242489565.png" 
+              src="/image_1740242489565.png" 
               alt="Chatbot Interface"
               className="w-full h-full object-cover"
             />
           </Card>
           <Card className="aspect-video bg-muted overflow-hidden">
             <img 
-              src="/attached_assets/image_1740243046512.png" 
+              src="/image_1740243046512.png" 
               alt="WhatsApp Chatbot"
               className="w-full h-full object-cover"
             />
