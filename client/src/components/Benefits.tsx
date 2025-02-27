@@ -34,7 +34,7 @@ export default function Benefits() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Benefícios da IA</h2>
+          <h2 className="text-3xl font-bold mb-4">Benefícios da <span className="text-red-600">IA</span></h2>
           <p className="text-muted-foreground">
             Descubra como a Inteligência Artificial pode transformar seu negócio
           </p>
