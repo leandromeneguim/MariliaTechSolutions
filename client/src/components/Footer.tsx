@@ -35,7 +35,7 @@ export default function Footer() {
               <div className="pt-3">
                 <Button size="sm" asChild className="bg-green-600 hover:bg-green-700 w-full md:w-auto">
                   <a 
-                    href="https://wa.me/5500000000000" 
+                    href="https://wa.me/5514996285833" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="gap-2"

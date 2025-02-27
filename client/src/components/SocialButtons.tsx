@@ -12,7 +12,7 @@ export default function SocialButtons() {
     >
       <Button variant="outline" size="icon" asChild>
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/marilia.tech.ia"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-background/80 backdrop-blur-sm hover:bg-gradient-to-br from-[#fa7e1e] via-[#d62976] to-[#962fbf]"
@@ -32,7 +32,7 @@ export default function SocialButtons() {
       </Button>
       <Button variant="outline" size="icon" asChild>
         <a
-          href="https://wa.me/seunumero"
+          href="https://wa.me/5514996285833"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-background/80 backdrop-blur-sm hover:bg-[#25d366]"

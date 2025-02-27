@@ -21,7 +21,7 @@ export default function Hero() {
           </p>
           <Button size="lg" asChild className="bg-green-600 hover:bg-green-700">
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://wa.me/5514996285833" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="gap-2"
