@@ -23,7 +23,13 @@ export default function Navbar() {
         <div className="flex items-center gap-2 md:gap-4">
           <ThemeToggle />
           <Button variant="outline" size="sm" className="font-semibold text-sm md:text-base" asChild>
-            <Link href="https://n8nwebhook.marilia.tech/webhook/html">Login</Link>
+            <a
+              href="https://n8nwebhook.marilia.tech/webhook/html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Login
+            </a>
           </Button>
         </div>
       </div>
